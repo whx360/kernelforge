@@ -1,0 +1,6 @@
+# Exact installed versions used for the recorded Windows/Python3.12 experiment.
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.8.0
+matplotlib==3.9.2
+threadpoolctl==3.5.0

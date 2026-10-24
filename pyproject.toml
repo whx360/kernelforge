@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kernelforge"
+version = "0.1.0"
+description = "Auditable binary kernel SVM with independently implemented feasible-pair SMO"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+full = ["scipy>=1.13", "scikit-learn>=1.8", "matplotlib>=3.9", "threadpoolctl>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
