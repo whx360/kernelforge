@@ -1,0 +1,53 @@
+[
+  {
+    "seed": 2026,
+    "linear": {
+      "C": 1.0,
+      "gamma": 0.1
+    },
+    "rbf": {
+      "C": 1.0,
+      "gamma": 0.1
+    },
+    "logistic_C": 0.1,
+    "split_counts": {
+      "train": 341,
+      "validation": 114,
+      "test": 114
+    }
+  },
+  {
+    "seed": 7,
+    "linear": {
+      "C": 0.1,
+      "gamma": 0.1
+    },
+    "rbf": {
+      "C": 1.0,
+      "gamma": 0.01
+    },
+    "logistic_C": 0.1,
+    "split_counts": {
+      "train": 341,
+      "validation": 114,
+      "test": 114
+    }
+  },
+  {
+    "seed": 19,
+    "linear": {
+      "C": 0.1,
+      "gamma": 0.1
+    },
+    "rbf": {
+      "C": 1.0,
+      "gamma": 0.1
+    },
+    "logistic_C": 0.1,
+    "split_counts": {
+      "train": 341,
+      "validation": 114,
+      "test": 114
+    }
+  }
+]

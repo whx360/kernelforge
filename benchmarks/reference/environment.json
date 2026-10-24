@@ -1,0 +1,25 @@
+{
+  "date_asia_shanghai": "2026-10-24",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cpu": "AMD Ryzen 7 7435H",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.9.2",
+    "threadpoolctl": "3.5.0"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Zen"
+    }
+  ],
+  "gpu_used": false
+}

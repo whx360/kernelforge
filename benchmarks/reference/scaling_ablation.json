@@ -1,0 +1,88 @@
+[
+  {
+    "seed": 2026,
+    "standardized": true,
+    "C": 1.0,
+    "gamma": 0.1,
+    "accuracy": 0.9736842105263158,
+    "balanced_accuracy": 0.9791666666666667,
+    "macro_f1": 0.9721203228173148,
+    "roc_auc": 0.9953703703703705,
+    "hinge": 0.18767405383823868,
+    "confusion_labels": [
+      -1,
+      1
+    ],
+    "confusion": [
+      [
+        69,
+        3
+      ],
+      [
+        0,
+        42
+      ]
+    ],
+    "training_accuracy": 0.989010989010989,
+    "pair_gap": 9.855301059680244e-06,
+    "bias": 0.12241250757160649,
+    "primal": 63.11279566654089,
+    "dual": 63.112666985685564,
+    "duality_gap": 0.00012868085532602436,
+    "relative_duality_gap": 2.038902792484666e-06,
+    "equality_residual": 1.1102230246251565e-16,
+    "box_violation": 0.0,
+    "margin_kkt_residual": 4.927650529840122e-06,
+    "support_count": 191,
+    "free_support_count": 152,
+    "iterations": 550,
+    "converged": true,
+    "status": "converged",
+    "refreshes": 4,
+    "zero_curvature_steps": 0,
+    "scope": "fixed standardized-selected hyperparameters; not retuned raw baseline"
+  },
+  {
+    "seed": 2026,
+    "standardized": false,
+    "C": 1.0,
+    "gamma": 0.1,
+    "accuracy": 0.631578947368421,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.3870967741935484,
+    "roc_auc": 0.8664021164021165,
+    "hinge": 0.8938796047295743,
+    "confusion_labels": [
+      -1,
+      1
+    ],
+    "confusion": [
+      [
+        72,
+        0
+      ],
+      [
+        42,
+        0
+      ]
+    ],
+    "training_accuracy": 1.0,
+    "pair_gap": 9.418966112506588e-06,
+    "bias": -0.40070080474694086,
+    "primal": 204.05986107747447,
+    "dual": 204.05961226895786,
+    "duality_gap": 0.0002488085166021392,
+    "relative_duality_gap": 1.2192918062787234e-06,
+    "equality_residual": 6.661338147750939e-16,
+    "box_violation": 0.0,
+    "margin_kkt_residual": 4.709483056197783e-06,
+    "support_count": 455,
+    "free_support_count": 285,
+    "iterations": 1353,
+    "converged": true,
+    "status": "converged",
+    "refreshes": 8,
+    "zero_curvature_steps": 0,
+    "scope": "fixed standardized-selected hyperparameters; not retuned raw baseline"
+  }
+]

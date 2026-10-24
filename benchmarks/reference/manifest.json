@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "recorded_date": "2026-10-24",
+  "scope": "frozen measured snapshot; verification checks records and numeric core, not a fresh timing rerun",
+  "numeric_core_source_files": {
+    "src/kernelforge/data.py": "7bd15a312747d5b3cbdfb36b2f922d6a6a95d7a1345cdf3e1dcf1fa0126c0f4d",
+    "src/kernelforge/kernels.py": "a3094970403c9e757a38d571bd6e4731df36335927343e0b89ce15755e8a01be",
+    "src/kernelforge/svm.py": "215ea124b5a56b10bb38f7bcb982322210dd7594753849bdc080da6f0390c169"
+  },
+  "files": {
+    "benchmark_raw.csv": "99fc29650c574f779b5dcb41f82f53adfdf93b0c06a358142caf50dfc4a58d59",
+    "benchmark_summary.csv": "2c0166859f4b7efc9de3de7f1acb429fb4f6a14175e6b8be3c0488086a051623",
+    "convergence.csv": "ce6b4af9d6a6acc924e3fb446a95a52fae25ba1d3d5260fffd7c56b48c5b79b5",
+    "data_source.json": "b9843c739097a527e3d07230b7a8b6d2aecbf7f266612430cf9ae5d1b7b881b3",
+    "environment.json": "d94cf143716ee5e64383cba43ee72635a151a90957135f36e5f019ef7e6feb3e",
+    "protocol.json": "2ab4904a043d98db5d95b904edf0b10fd136be6ac997e4f045a5f2e0616fddc6",
+    "scaling_ablation.json": "8891b717a63a0fb6949b5ed04fbe542fbaed0e248966fbb0e8580e4214ce20e6",
+    "selected_parameters.json": "35bcc05c679df29845664dc720e370ab0faa60b5acc77bdc6026c45f71f4d3a0",
+    "splits.json": "43184a16335777874577fa8c3a0c6826f1fbb6cb29015df2c27d5115f14694a1",
+    "test_predictions.csv": "f53fd276f932a75039e23fde5a7c5255cbf4cb6f7ba55b0b19e649c966dd1f9e",
+    "test_results.json": "e5d33fb61323b626817b3a942c21177de7f0646292cec87e3489eb6754b55b4f",
+    "validation_candidates.csv": "202da8850f4a339848de4df9ca1dba6d5c80317a991f21a5ffd15bb2e0d561c3"
+  },
+  "benchmark_raw_rows": 45,
+  "test_result_rows": 18,
+  "own_model_predictions": 684,
+  "raw_datasets_or_models_committed": false
+}

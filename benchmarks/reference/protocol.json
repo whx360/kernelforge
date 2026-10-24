@@ -1,0 +1,40 @@
+{
+  "version": "formal_v1",
+  "split_seeds": [
+    2026,
+    7,
+    19
+  ],
+  "C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "gamma_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "tol": 1e-05,
+  "max_iter": 100000,
+  "selection": "validation balanced_accuracy, tie by declared candidate order",
+  "positive_label": "malignant +1",
+  "blas_threads": 1,
+  "timing_repeats": 3,
+  "timing_scope": "fit wall time including kernel cache construction; prediction separate",
+  "inference": "scores are not probabilities",
+  "stats_scope": "split variability, no significance claim",
+  "eligibility": "SVM pair_gap convergence; logistic no ConvergenceWarning and n_iter<max_iter",
+  "benchmark_workloads": "(n,d)=(200,8),(480,12),(800,16), gamma=1/d; not isolated sample-count scaling",
+  "benchmark_generator": "seed2026 Gaussian X; sign(x0*x1+0.3*x2+0.15*Gaussian noise)",
+  "warmup": "one fit per configuration per workload, excluded",
+  "score_comparison_atol": 0.0002,
+  "scope": "formal",
+  "quick": false,
+  "effective_split_seeds": [
+    2026,
+    7,
+    19
+  ],
+  "effective_timing_repeats": 3
+}
